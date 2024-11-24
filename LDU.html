@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDU decomposition</title>
+    <link href="LDU.css" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+    <h1>What is LDU Factorization?</h1>
+    <p>LDU factorization, also known as LU factorization with diagonal scaling, is a mathematical process <br> that breaks down a square matrix into three matrices: a lower triangular matrix (L), a diagonal matrix (D), and an upper triangular matrix (U).</p>
+    <h1>More Details about LDU Factorization</h1>
+    <ul>
+      <li>
+      <h2>purpose:</h2>
+      </li>
+      <p>LDU factorization is a fundamental algorithm in linear algebra that's useful for solving<br> linear systems, inverting matrices, and computing determinants. </p>
+    </ul>
+    <ul>
+      <li>
+        <h2>Matrices:</h2>
+      </li>
+      <p>In the lower triangular matrix, all elements above the diagonal are zero, and in the upper triangular matrix,<br> all elements below the diagonal are zero</p>
+    </ul>
+    <ul>
+      <li>
+        <h2>Order</h2>
+      </li>
+      <p>The proper row and/or column orderings or permutations are important for the factorization to work</p>
+    </ul>
+    <ul>
+      <li>
+        <h2>Efficiency</h2>
+      </li>
+      <p>LU factorization is efficient, taking about half as many operations as finding the row reduced echelon form.</p> 
+    </ul>
+    <ul>
+      <li>
+        <h2>Non-square matrices</h2>
+      </li>
+      <p>LU decomposition can also be used for non-square matrices. For example, if you have an m × n matrix M,<br> you can write M = LU, where L is an m × m matrix and U is an m × n matrix. </p>
+      <li>
+        <h1>Steps of LDU Factorization:</h1>
+      </li>
+    
+    <h3>Construct L:</h3><p> Construct the lower triangular matrix L, with 1s on the diagonal, one column at a time
+      <h3> Construct D:</h3><p> Construct the diagonal matrix D, one diagonal entry at a time </p>
+      <h3> Construct U:</h3><p> Construct the upper triangular matrix U, with 1s on the diagonal, one row at a time</p>
+      <h3> Update L, D, U:</h3><p> Update L, D, U at each stage </p>
+      <button class="cn">
+        <a href="NewHTML.html"> JOIN US </a>
+        </button>
+  </div> 
+</body>
+</html>
