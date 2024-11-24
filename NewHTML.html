@@ -1,0 +1,34 @@
+LDU Matrix Factorization Calculator
+Preview
+Code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDU Matrix Factorization Calculator</title>
+    <link href="NewCSS.css" rel="stylesheet">
+    <script src="NewJS.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>LDU Matrix Factorization Calculator</h1>
+        
+        <div class="input-section">
+            <h2>Input Matrix Size</h2>
+            <input type="number" id="matrixSize" min="2" max="5" value="3" onchange="createMatrixInput()">
+            <button onclick="createMatrixInput()">Create Matrix</button>
+        </div>
+
+        <div id="matrixInput" class="matrix-input"></div>
+        <button onclick="calculateLDU()">Calculate LDU Factorization</button>
+
+        <div id="error" class="error"></div>
+        <div id="result" class="result-section"></div>
+    </div>
+    <div class="navigation-container">
+        <a href="final.html" class="next-button">Next</a>
+    </div>
+</body>
+</html>
