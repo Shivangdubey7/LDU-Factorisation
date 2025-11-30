@@ -35,6 +35,7 @@ function displayMatrix(matrix, name) {
     }
     html += `</div><div class="matrix-bracket">]</div></div>`;
     return html;
+    
 }
 
 function getInputMatrix() {
@@ -150,4 +151,5 @@ function multiplyMatrices(a, b) {
 }
 
 // Initialize the matrix input when the page loads
+
 window.onload = createMatrixInput;
