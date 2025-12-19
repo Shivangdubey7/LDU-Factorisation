@@ -10,32 +10,6 @@ A simple, browser-based interactive tool for exploring LDU (Lower–Diagonal–U
 - Multiple HTML/CSS styles and versions included for experimentation.
 - Client-side JavaScript (no server required) performs the computations and updates the UI.
 
-## Demo / Usage
-
-To run locally:
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/Shivangdubey7/LDU-Factorisation.git
-   cd LDU-Factorisation
-   ```
-
-2. Open a browser and load one of the HTML pages:
-   - `final.html` — likely the latest/cleaned interface.
-   - `LDU.html` — a page focused on LDU functionality.
-   - `starting_page.html` — an entry/landing page.
-   - `new.html` / `NewHTML.html` — alternate versions.
-
-   You can open the file directly (file:///) in most browsers. If you prefer serving over HTTP (recommended for some browsers/extensions), run:
-   ```
-   python -m http.server 8000
-   ```
-   then visit: http://localhost:8000/final.html
-
-3. Use the UI to enter a matrix (the UI accepts the format provided by the page). Click the compute/solve button to obtain L, D and U factors.
-
-## Repository structure (important files)
-
 - final.html — polished HTML page for the app (entry point).
 - final.css, LDU.css, NewCSS.css, starting_page.css — stylesheet files used by different HTML pages.
 - final.html, LDU.html, NewHTML.html, new.html, starting_page.html — multiple HTML pages/versions of the UI.
@@ -64,13 +38,5 @@ When contributing:
 - To test changes quickly, run a local static server (e.g., `python -m http.server`) and open the desired HTML file.
 - If adding dependencies or building a more advanced app, consider adding a package manager (npm) and a build workflow.
 
-## License
-
-This repository does not currently include a license file. If you want to apply an open-source license (e.g., MIT), add a `LICENSE` file to the project root.
-
-## Contact / Credits
-
-- Repository owner: Shivangdubey7
-- If you want me to add this README to the repository (commit it), I can prepare the commit message and push it — tell me if you'd like me to create the file directly in the repository.
 
 Enjoy exploring LDU factorisation!
